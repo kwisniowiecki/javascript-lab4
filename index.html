@@ -1,19 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="styles.css" />
     <title>JavaScript Lab 4</title>
-  </head>
+</head>
 
-  <script src="script.js"></script>
-  <body>
-    <p>Total:</p>
+<script src="script.js"></script>
+
+<body>
+    <!-- 1 VENDING MACHINE -->
+    <p class="total">Total:</p>
     <p>$0.00</p>
     <button class="lime-cola" data-amount="2">Lime Cola $2.00</button>
     <button class="chocolate-bar" data-amount="4">Chocolate Bar $4.00</button>
     <button class="salted-peanuts" data-amount="3">Salted Peanuts $3.00</button>
     <button class="fruit-gummies" data-amount="6">Fruit Gummies $6.00</button>
-  </body>
+
+    <!-- #2 MAKE MONEY -->
+    <form>
+        <label for="numberInput"></label>
+        <input type="text" id="numberInput" placeholder="" name="numberInput" />
+
+        <label for="whichCoin"></label>
+        <select id="whichCoin" name="whichCoin">
+            <option value="penny">Penny</option>
+            <option value="nickel">Nickel</option>
+            <option value="dime">Dime</option>
+            <option value="quarter">Quarter</option>
+        </select>
+        <button>Make Money!</button>
+        <button class="dimeOne dimes">Dime</button>
+        <button class="dimeTwo dimes">Dime</button>
+    </form>
+
+    <!-- #3 LIGHT BULB -->
+</body>
+
 </html>

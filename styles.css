@@ -1,0 +1,19 @@
+.total {
+    font-weight: bold;
+}
+
+button {
+    background-color: teal;
+    padding: 15px;
+    margin: 10px;
+    justify-content: left;
+    /* font-weight: bold; */
+    font-size: 15px;
+}
+
+.dimes {
+    border-radius: 50px;
+    width: 100px;
+    height: 100px;
+    background-color: grey;
+}
