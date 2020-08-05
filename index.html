@@ -8,19 +8,20 @@
     <title>JavaScript Lab 4</title>
 </head>
 
-<script src="script.js"></script>
-
 <body>
     <!-- 1 VENDING MACHINE -->
-    <p class="total">Total:</p>
-    <p>$0.00</p>
-    <button class="lime-cola" data-amount="2">Lime Cola $2.00</button>
-    <button class="chocolate-bar" data-amount="4">Chocolate Bar $4.00</button>
-    <button class="salted-peanuts" data-amount="3">Salted Peanuts $3.00</button>
-    <button class="fruit-gummies" data-amount="6">Fruit Gummies $6.00</button>
+    <p class="total">Total: 0</p>
+    <button class="lime-cola button" data-amount="2">Lime Cola $2.00</button>
+    <button class="chocolate-bar button" data-amount="4">Chocolate Bar $4.00</button>
+    <button class="salted-peanuts button" data-amount="3">Salted Peanuts $3.00</button>
+    <button class="fruit-gummies button" data-amount="6">Fruit Gummies $6.00</button>
+
+
+
 
     <!-- #2 MAKE MONEY -->
-    <form>
+
+    <form class="money-form">
         <label for="numberInput"></label>
         <input type="text" id="numberInput" placeholder="" name="numberInput" />
 
@@ -32,11 +33,15 @@
             <option value="quarter">Quarter</option>
         </select>
         <button>Make Money!</button>
-        <button class="dimeOne dimes">Dime</button>
-        <button class="dimeTwo dimes">Dime</button>
     </form>
+    <div class="coin-container"></div>
 
     <!-- #3 LIGHT BULB -->
+
+
+
+
+    <script src="script.js"></script>
 </body>
 
 </html>
